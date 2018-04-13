@@ -1,0 +1,29 @@
+From db5c6ebddfe5a7ab57384a36f8c23870a331600a Mon Sep 17 00:00:00 2001
+From: "Brett T. Warden" <brett.t.warden@intel.com>
+Date: Fri, 13 Apr 2018 13:38:15 -0700
+Subject: [PATCH] Set standard Clear Linux installation paths
+
+---
+ makefile | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/makefile b/makefile
+index 6f5321c..5f8148f 100644
+--- a/makefile
++++ b/makefile
+@@ -37,9 +37,9 @@ incdefs := $(shell $(srcdir)/incdefs.sh)
+ version := $(shell $(srcdir)/version.sh $(srcdir))
+ VPATH	= $(srcdir)
+ 
+-prefix	= /usr/local
+-sbindir	= $(prefix)/sbin
+-mandir	= $(prefix)/man
++prefix	= /usr
++sbindir	= $(prefix)/bin
++mandir	= $(prefix)/share/man
+ man8dir	= $(mandir)/man8
+ 
+ all: $(PRG)
+-- 
+2.16.2
+
