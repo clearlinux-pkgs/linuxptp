@@ -4,7 +4,7 @@
 #
 Name     : linuxptp
 Version  : 1.9.2
-Release  : 1
+Release  : 2
 URL      : https://cytranet.dl.sourceforge.net/project/linuxptp/v1.9/linuxptp-1.9.2.tgz
 Source0  : https://cytranet.dl.sourceforge.net/project/linuxptp/v1.9/linuxptp-1.9.2.tgz
 Summary  : No detailed summary available
