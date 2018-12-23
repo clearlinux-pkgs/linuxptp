@@ -5,8 +5,8 @@
 Name     : linuxptp
 Version  : 1.9.2
 Release  : 2
-URL      : https://cytranet.dl.sourceforge.net/project/linuxptp/v1.9/linuxptp-1.9.2.tgz
-Source0  : https://cytranet.dl.sourceforge.net/project/linuxptp/v1.9/linuxptp-1.9.2.tgz
+URL      : https://sourceforge.net/projects/linuxptp/files/v1.9/linuxptp-1.9.2.tgz
+Source0  : https://sourceforge.net/projects/linuxptp/files/v1.9/linuxptp-1.9.2.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-2.0
